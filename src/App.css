@@ -1,4 +1,12 @@
+.about  {
+  min-height:500px;
+  background-color: crimson;
+}
 
+.activities {
+  min-height:500px;
+  background-color: chartreuse;
+}
 
 .navbar {
   min-height: 80px;

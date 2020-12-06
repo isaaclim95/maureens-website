@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import TopNavbar from "./components/navbar.component";
 import Home from "./components/home.component";
 import About from "./components/about.component";
+import Activities from "./components/activities.component";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,6 +13,7 @@ function App() {
       <TopNavbar/>
       <Home/>
       <About/>
+      <Activities/>
     </div>
     
    

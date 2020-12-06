@@ -7,6 +7,7 @@ import image2 from '../img/image2.jpg';
 import image3 from '../img/image3.jpg';
 import image4 from '../img/image4.jpg';
 import image5 from '../img/image5.jpg';
+import image6 from '../img/image6.jpg';
 
 export default class Home extends Component {
 
@@ -28,6 +29,9 @@ export default class Home extends Component {
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={image5}></img>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image6}></img>
         </Carousel.Item>
       </Carousel>
     );
