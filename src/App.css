@@ -1,11 +1,9 @@
-.about  {
-  min-height:500px;
-  background-color: crimson;
+.about p, h2  {
+  margin: 20px;
 }
 
 .activities {
-  min-height:500px;
-  background-color: chartreuse;
+  margin: 20px;
 }
 
 .navbar {
