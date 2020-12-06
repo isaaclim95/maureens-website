@@ -1,0 +1,27 @@
+
+
+.navbar {
+  min-height: 80px;
+}
+
+.navvie {
+  background-color: #48b1c0;
+  
+}
+
+.navbar-brand {
+  font-family: IndieFlower;
+  font-size: 100px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline:none;
+}
+
+
+@font-face {
+  font-family: 'IndieFlower';
+  src: local('Lato'), url(./fonts/IndieFlower-Regular.ttf) format('opentype');
+}
