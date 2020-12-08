@@ -131,14 +131,16 @@
 
 /*************/
 
-/* .hero {
+.hero {
   background-color: crimson;
-} */
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
 .hero-row {
   min-height: 50vh;
-  display: flex;
   align-items: center;
+  background-color: chocolate;
 }
 
 .hero-col {

@@ -10,9 +10,9 @@ export default class Hero extends Component {
 
     render() {
         return (
-            <Container style={{
+            <Container style={{backgroundColor: "#7acedc", margin: "0px"
             }} className="hero">
-                <Row className="hero-row">
+                <Row className="hero-row" style={{width: "100%", marginRight: "0"}}>
                     <Col className="hero-col"><CheckAvailability /></Col>
                     <Col className="hero-col"><ContactButton /></Col>
                 </Row>
