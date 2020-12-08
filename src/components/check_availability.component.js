@@ -10,7 +10,7 @@ export default class CheckAvailability extends Component {
     render() {
         return (
             <Button variant="primary" style={{
-                height: "80px", width: "50%", borderRadius: "300px", backgroundColor: "orange", fontSize: "20px"
+                height: "80px", width: "50%", borderRadius: "35px", backgroundColor: "orange", fontSize: "20px"
             }} className="check-availability-button">
                 Check Availability
             </Button>

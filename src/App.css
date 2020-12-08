@@ -39,17 +39,18 @@
   max-width: 10px;
 }
 
+/* Carousel transition */
 .carousel-item {
   transition: opacity 1s ease-in-out !important;
 }
 
+/* Carousel center text */
 .trickcenter {
   color:#fff;
   position: fixed;;
   text-align:center;
   top: 30%;
   font-size: 50px;
-  /* font-size: 3em; */
 }
 
 /* Specific font size and aligning to middle for devices */
@@ -74,14 +75,63 @@
   }
 }
 
+/********************************************Hero***************************/
+
+.hero {
+  min-height: 30vh;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+}
+
+.hero-row {
+  min-height: 30vh;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+}
+
+.hero-col {
+  text-align: center;
+}
+
 /******************************************About*******************************************/
 
+.about  {
+  min-height: 40vh !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+  background-color: #e3fcfc;
+}
+
+.about-row  {
+  min-height: 40vh !important;
+  align-items: center;
+  margin-right: 10px !important;
+  /* This needs to be set otherwise gap on right side -.- */
+  max-width: 100% !important;
+
+}
+
+/* .about-col  {
+  background-color: coral;
+  margin-top: 20px;
+} */
 
 .about-img  {
   /* flex:2; */
   max-width: 300px;
   display: block;
   margin: auto;
+  margin-top: 50px;
 }
 
 .aboutText  {
@@ -129,23 +179,7 @@
 
 }
 
-/*************/
 
-.hero {
-  background-color: crimson;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-.hero-row {
-  min-height: 50vh;
-  align-items: center;
-  background-color: chocolate;
-}
-
-.hero-col {
-  text-align: center;
-}
 
 /******************************************Fonts*******************************************/
 
@@ -158,3 +192,5 @@
   font-family: 'mplusrounded1c';
   src: local('Lato'), url(./fonts/MPLUSRounded1c-Regular.ttf) format('opentype');
 }
+
+

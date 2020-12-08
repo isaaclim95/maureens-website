@@ -10,7 +10,7 @@ export default class ContactButton extends Component {
     render() {
         return (
             <Button variant="primary" style={{
-                height: "80px", width: "50%", borderRadius: "300px", backgroundColor: "pink", fontSize: "20px"
+                height: "80px", width: "50%", borderRadius: "35px", backgroundColor: "pink", fontSize: "20px"
             }} className="contact-button">
                 Contact
             </Button>

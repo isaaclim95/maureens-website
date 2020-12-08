@@ -5,13 +5,20 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+const styles = {
+  B1: "about-img",
+  B2: "about-col",        
+}
+
 export default class About extends Component {
+
+  
 
   render() {
     return (
       <Container style={{ marginTop: "5%" }} className="about" id="about">
-        <Row>
-          <Col><img src={image1} className="about-img"></img></Col>
+        <Row className="about-row">
+          <Col><img src={image1} className={`${styles.B2} ${styles.B1}`}></img></Col>
           <Col>
             <h2 style={{ textAlign: "center" }}>About Us</h2>
             <p>
