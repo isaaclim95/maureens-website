@@ -14,8 +14,8 @@ export default class Home extends Component {
   render() {
     return (
       // <img src={image1}></img>
-      <Carousel>
-        <Carousel.Item>
+      <Carousel className="carousel">
+        <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image1}></img>
         </Carousel.Item>
         <Carousel.Item>
