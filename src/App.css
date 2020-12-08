@@ -52,14 +52,6 @@
 /******************************************About*******************************************/
 
 /* About div */
-.about  {
-  background-color:#54f0be;
-  overflow: hidden;
-  display:table;
-  margin-left: 15%;
-  margin-right: 15%;
-  justify-content: space-evenly;
-}
 
 .about-img  {
   /* flex:2; */

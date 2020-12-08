@@ -10,7 +10,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <Container>
+      <Container style={{ marginTop: "5%" }}>
         <Row>
           <Col><img src={image1} className="about-img"></img></Col>
           <Col>
@@ -25,7 +25,7 @@ export default class About extends Component {
             </p>
           </Col>
         </Row>
-      </Container>
+      </ Container>
 
     );
   }
