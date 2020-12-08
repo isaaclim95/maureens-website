@@ -14,24 +14,24 @@ export default class Home extends Component {
   render() {
     return (
       // <img src={image1}></img>
-      <Carousel className="carousel">
+      <Carousel className="carousel" fade="true" pause="false">
         <Carousel.Item className="carousel-item">
-          <img className="d-block w-100" src={image1}></img>
+          <img className="d-block w-100" src={image1} alt="Kids on a boat"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={image2}></img>
+          <img className="d-block w-100" src={image2} alt="Kids on a boat"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={image3}></img>
+          <img className="d-block w-100" src={image3} alt="Kids on a boat"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={image4}></img>
+          <img className="d-block w-100" src={image4} alt="Kids on a boat"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={image5}></img>
+          <img className="d-block w-100" src={image5} alt="Kids on a boat"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={image6}></img>
+          <img className="d-block w-100" src={image6} alt="Kids on a boat"></img>
         </Carousel.Item>
       </Carousel>
     );

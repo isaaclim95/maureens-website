@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -7,23 +6,23 @@ import '../App.css';
 
 export default class TopNavbar extends Component {
 
-  render() {
-    return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" className="navvie">
-                <Navbar.Brand href="#home" className="navbar-brand">Maureen's Family Day Care</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#about" className="nav-link" id="about-nav-link">About</Nav.Link>
-                        <Nav.Link href="#activities" className="nav-link" id="activities-nav-link">Activities</Nav.Link>
-                        <Nav.Link href="#framework" className="nav-link" id="framework-nav-link">Learning framework</Nav.Link>
-                        <Nav.Link href="#routine" className="nav-link" id="routine-nav-link">Routine</Nav.Link>
-                        <Nav.Link href="#contact" className="nav-link" id="contact-nav-link">Contact</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-        </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <Navbar collapseOnSelect expand="lg" className="navbar">
+                    <Navbar.Brand href="#home" className="navbar-logo">Maureen's Family Day Care</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link href="#about" className="nav-link" id="about-nav-link">About</Nav.Link>
+                            <Nav.Link href="#activities" className="nav-link" id="activities-nav-link">Activities</Nav.Link>
+                            <Nav.Link href="#framework" className="nav-link" id="framework-nav-link">Learning framework</Nav.Link>
+                            <Nav.Link href="#routine" className="nav-link" id="routine-nav-link">Routine</Nav.Link>
+                            <Nav.Link href="#contact" className="nav-link" id="contact-nav-link">Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </div>
+        );
+    }
 }

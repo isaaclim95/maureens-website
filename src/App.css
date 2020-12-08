@@ -6,6 +6,11 @@
   height: 500px;
 }
 
+.carousel-item {
+  transition: opacity 1s ease-in-out !important;
+
+}
+
 .about  {
   /* margin-top: 40px; */
   overflow: hidden;
@@ -66,7 +71,7 @@
   min-height: 80px;
 }
 
-.navvie {
+.navbar {
   /* Text colour navbar */
   color: #000000;
   border-radius: 30px 0 0 30px !important;
@@ -87,7 +92,7 @@
   justify-content: space-between;
 } */
 
-.navbar-brand {
+.navbar-logo {
   font-family: mplusrounded1c;
   font-size: 30px !important;
 }
