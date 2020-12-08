@@ -71,6 +71,10 @@
   display: table-cell; vertical-align: middle;
 }
 
+#about-nav-link  {
+  background-color: #FFFF00;
+}
+
 /******************************************Activities*************************************** */
 .activities {
   background-color: crimson;
