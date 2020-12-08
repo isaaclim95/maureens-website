@@ -9,7 +9,7 @@ export default class TopNavbar extends Component {
     render() {
         return (
             <div>
-                <Navbar collapseOnSelect expand="lg" className="navbar">
+                <Navbar collapseOnSelect expand="lg" className="top-navbar">
                     <Navbar.Brand href="#home" className="navbar-logo">Maureen's Family Day Care</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -21,6 +21,7 @@ export default class TopNavbar extends Component {
                             <Nav.Link href="#contact" className="nav-link" id="contact-nav-link">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+
                 </Navbar>
             </div>
         );
