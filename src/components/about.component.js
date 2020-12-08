@@ -16,7 +16,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <Container style={{ marginTop: "5%" }} className="about" id="about">
+      <Container className="about" id="about">
         <Row className="about-row">
           <Col><img src={image1} className={`${styles.B2} ${styles.B1}`}></img></Col>
           <Col>
