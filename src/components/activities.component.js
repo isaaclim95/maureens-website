@@ -8,9 +8,8 @@ export default class Activities extends Component {
 
   render() {
     return (
-      <Container style={{ marginTop: "5%" }}>
+      <Container style={{ marginTop: "5%" }} id="activities">
         <Row>
-          <Col></Col>
           <Col>
             <h2 style={{ textAlign: "center" }}>Activities</h2>
             <ul>

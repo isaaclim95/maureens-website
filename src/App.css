@@ -1,6 +1,34 @@
-
+/******************************************Navbar*******************************************/
 .nav-link {
   border-radius: 30px 10px 20px 5px;
+}
+
+.nav-link + .nav-link {
+  margin-left: 10px
+}
+
+.navbar-logo {
+  font-family: mplusrounded1c;
+  font-size: 25px !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline:none;
+}
+
+.navbar-header {
+  background-color: #F16E10;
+}
+
+.top-navbar {
+  min-height: 90px;
+  /* Text colour navbar */
+  color: #000000;
+  background-image: url(img/nav-background.svg); 
+  /* background-size: 100% auto; */
+  background-repeat: no-repeat; 
 }
 
 /* Carousel indicators */
@@ -10,7 +38,6 @@
   min-height: 10px;
   max-width: 10px;
 }
-
 
 .carousel-item {
   transition: opacity 1s ease-in-out !important;
@@ -47,15 +74,14 @@
   }
 }
 
-/******************************************Navbar*******************************************/
-
 /******************************************About*******************************************/
 
-/* About div */
 
 .about-img  {
   /* flex:2; */
   max-width: 300px;
+  display: block;
+  margin: auto;
 }
 
 .aboutText  {
@@ -67,7 +93,7 @@
   background-color: #FFFF00;
 }
 
-/******************************************Activities*************************************** */
+/******************************************Activities****************************************/
 .activities {
   background-color: crimson;
 }
@@ -94,27 +120,6 @@
   text-align: center;
 }
 
-
-
-.nav-link + .nav-link {
-  margin-left: 10px
-}
-
-
-
-.top-navbar {
-  min-height: 90px;
-  /* Text colour navbar */
-  color: #000000;
-  background-image: url(img/nav-background.svg); 
-  /* background-size: 100% auto; */
-  background-repeat: no-repeat; 
-}
-
-.navbar-header {
-  background-color: #F16E10;
-}
-
 .mr-auto  {
   margin: auto;
   font-size: 20px;
@@ -124,25 +129,23 @@
 
 }
 
-/* Space navbar items evenly */
-/* .mr-auto {
-  flex: 1;
-  margin: auto !important;
-  display: flex;
-  justify-content: space-between;
+/*************/
+
+/* .hero {
+  background-color: crimson;
 } */
 
-.navbar-logo {
-  font-family: mplusrounded1c;
-  font-size: 25px !important;
+.hero-row {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline:none;
+.hero-col {
+  text-align: center;
 }
 
+/******************************************Fonts*******************************************/
 
 @font-face {
   font-family: 'IndieFlower';

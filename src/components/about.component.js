@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import image1 from '../img/image1.jpg';
 import Container from 'react-bootstrap/Container';
@@ -10,7 +9,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <Container style={{ marginTop: "5%" }}>
+      <Container style={{ marginTop: "5%" }} className="about" id="about">
         <Row>
           <Col><img src={image1} className="about-img"></img></Col>
           <Col>
