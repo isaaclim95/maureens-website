@@ -3,50 +3,85 @@
   border-radius: 30px 10px 20px 5px;
 }
 
-.carousel .carousel-item  {
-  height: 500px;
-}
-
-.carousel-item {
-  transition: opacity 1s ease-in-out !important;
-  background-size:cover
-
-}
-
+/* Carousel indicators */
 .carousel li {
   background-color: red;
   border-radius: 50%;
   min-height: 10px;
   max-width: 10px;
-  
-}
-
-.carousel-inner > .item > img {
-  width:640px;
-  height:360px;
 }
 
 
+.carousel-item {
+  transition: opacity 1s ease-in-out !important;
+}
 
+.trickcenter {
+  color:#fff;
+  position: fixed;;
+  text-align:center;
+  top: 30%;
+  font-size: 50px;
+  /* font-size: 3em; */
+}
+
+/* Specific font size and aligning to middle for devices */
+@media only screen and (max-width: 300px) {
+  .trickcenter {
+    font-size: 3px;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .trickcenter {
+    font-size: 30px;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .trickcenter {
+    font-size: 25px;
+    top: 30%;
+  }
+}
+
+/******************************************Navbar*******************************************/
+
+/******************************************About*******************************************/
+
+/* About div */
 .about  {
-  /* margin-top: 40px; */
+  background-color:#54f0be;
   overflow: hidden;
-  background-color: #03fc62;
+  display:table;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-evenly;
 }
 
-.about p  {
-  margin: 20px;
+.about-img  {
+  /* flex:2; */
+  max-width: 300px;
 }
 
-#about-nav-link  {
-  background-color: #FFFF00;
-  text-align: center;
+.aboutText  {
+  /* flex:1; */
+  display: table-cell; vertical-align: middle;
+}
+
+/******************************************Activities*************************************** */
+.activities {
+  background-color: crimson;
 }
 
 #activities-nav-link  {
   background-color: #90EE90;
   text-align: center;
 }
+
+/******************************************Framework*******************************************/
 
 #framework-nav-link {
   background-color: #FFC0CB;
@@ -63,26 +98,12 @@
   text-align: center;
 }
 
-.about img  {
-  width: 40%;
-  vertical-align: middle;
-  display:inline-block;
 
-}
 
 .nav-link + .nav-link {
   margin-left: 10px
 }
 
-.aboutText  {
-  width: 50%;
-  float: right;
-  right: 0;
-}
-
-.activities {
-  margin: 20px;
-}
 
 
 .top-navbar {
