@@ -103,7 +103,7 @@
 /******************************************About*******************************************/
 
 .about  {
-  min-height: 40vh !important;
+  min-height: 50vh !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
   margin-left: 0px !important;
@@ -113,7 +113,7 @@
 }
 
 .about-row  {
-  min-height: 40vh !important;
+  min-height: 50vh !important;
   align-items: center;
   margin-right: 10px !important;
   /* This needs to be set otherwise gap on right side -.- */
