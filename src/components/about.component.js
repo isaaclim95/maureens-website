@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import image1 from '../img/image1.jpg';
+import about_img from '../img/about_img.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,7 +14,7 @@ export default class About extends Component {
       <div className="about-div">
         <Container className="about-container" id="about">
           <Row className="about-row">
-            <Col><img className="about-img" src={image1}></img></Col>
+            <Col><img className="about-img" src={about_img}></img></Col>
             <Col>
               <h2 style={{ textAlign: "center" }}>About Us</h2>
               <p>
