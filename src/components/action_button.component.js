@@ -6,9 +6,11 @@ export default class ActionButton extends Component {
 
     render() {
         return (
-            <Button variant="primary" style={{
-                height: "80px", width: "80%", borderRadius: "35px", backgroundColor: this.props.backgroundColor, fontSize: "4vw"
-            }} className="contact-button">
+            <Button variant="primary"
+                style={{
+                    backgroundColor: this.props.backgroundColor, color: this.props.color
+                }}
+                className="action-button">
                 {this.props.title}
             </Button>
         );

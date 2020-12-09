@@ -33,6 +33,7 @@
   background-repeat: no-repeat; 
 }
 
+
 /* Carousel indicators */
 .carousel li {
   background-color: red;
@@ -41,10 +42,6 @@
   max-width: 10px;
 }
 
-/* Carousel transition */
-.carousel-item {
-  transition: opacity 1s ease-in-out !important;
-}
 
 /* Carousel center text */
 .trickcenter {
@@ -53,6 +50,10 @@
   text-align:center;
   top: 30%;
   font-size: 50px;
+}
+
+.carousel.fade {
+  opacity: 1;
 }
 
 /* Specific font size and aligning to middle for devices */
@@ -81,65 +82,53 @@
 
 .hero {
   min-height: 30vh;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  max-width: 100% !important;
+  display:flex;
+  flex-direction: column;
+  /* position: relative; */
+  justify-content: center;
 }
-
 .hero-row {
-  min-height: 30vh;
-  align-items: center;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  max-width: 100% !important;
+  margin: 15px;
 }
 
 .hero-col {
   text-align: center;
 }
 
+.hero-col h5  {
+  text-align: center;
+}
+
+
+/*****************ActionButton*********/
+
+.action-button  {
+  border-radius: "35px";
+  width: 300px;
+  font-size: "3vw";
+}
+
 /******************************************About*******************************************/
 
-.about  {
+.about-div  {
   min-height: 80vh !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  max-width: 100% !important;
   background-color: #e3fcfc;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-row  {
-  min-height: 50vh !important;
   align-items: center;
-  margin-right: 30px !important;
   margin-left: 30px !important;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  margin-right: 30px !important;
+  
 }
-
-/* .about-col  {
-  background-color: coral;
-  margin-top: 20px;
-} */
 
 .about-img  {
-  /* flex:2; */
   max-width: 300px;
   display: block;
-}
-
-.aboutText  {
-  /* flex:1; */
-  display: table-cell; vertical-align: middle;
+  margin-bottom:30px;
 }
 
 #about-nav-link  {
