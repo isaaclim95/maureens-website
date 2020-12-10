@@ -7,6 +7,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LearningFramework from "./components/learning_framework.component";
 import Routine from "./components/routine.component";
+import Contact from "./components/contact.component";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Activities />
       <Routine />
       <LearningFramework />
+      <Contact />
     </div>
 
 

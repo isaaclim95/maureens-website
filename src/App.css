@@ -234,7 +234,7 @@
   max-width: 500px;
 }
 
-
+/***********************Nav links****************************/
 #about-nav-link  {
   background-color: #FFFF00;
 }
@@ -263,6 +263,30 @@
 
 }
 
+/*************************Contact**************************/
+
+.contact-div   {
+  min-height: 80vh !important;
+  background-color: #e3fcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-row1 {
+  margin-bottom: 50px;
+}
+
+.contact-row1 h2   {
+  font-family: MontserratBold;
+  font-size: 64px !important;
+  text-align: center;
+}
+
+.contact-row2   {
+  font-family: MontserratBold;
+  text-align: center;
+}
 
 
 /******************************************Fonts*******************************************/
