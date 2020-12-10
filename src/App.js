@@ -5,6 +5,8 @@ import Activities from "./components/activities.component";
 import Hero from "./components/hero.component";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LearningFramework from "./components/learning_framework.component";
+import Routine from "./components/routine.component";
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Hero />
       <About />
       <Activities />
+      <Routine />
+      <LearningFramework />
     </div>
 
 

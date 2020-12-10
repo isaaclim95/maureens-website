@@ -9,8 +9,8 @@ export default class Activities extends Component {
 
   render() {
     return (
-      <div className="activities-div">
-        <Container className="activities-container" id="activities">
+      <div className="activities-div" id="activities">
+        <Container className="activities-container" >
           <Row className="activities-row" style={{ marginBottom: "26px" }}>
             <Col><h2 >Activities</h2></Col>
           </Row>

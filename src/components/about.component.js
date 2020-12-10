@@ -11,8 +11,8 @@ export default class About extends Component {
 
   render() {
     return (
-      <div className="about-div">
-        <Container className="about-container" id="about">
+      <div className="about-div" id="about">
+        <Container className="about-container" >
           <Row className="about-row">
             <Col><img className="about-img" src={about_img}></img></Col>
             <Col>

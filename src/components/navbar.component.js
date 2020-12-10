@@ -16,7 +16,7 @@ export default class TopNavbar extends Component {
                         <Nav className="mr-auto">
                             <Nav.Link href="#about" className="nav-link" id="about-nav-link">About</Nav.Link>
                             <Nav.Link href="#activities" className="nav-link" id="activities-nav-link">Activities</Nav.Link>
-                            <Nav.Link href="#framework" className="nav-link" id="framework-nav-link">Learning framework</Nav.Link>
+                            <Nav.Link href="#learning-framework" className="nav-link" id="learning-framework-nav-link">Learning framework</Nav.Link>
                             <Nav.Link href="#routine" className="nav-link" id="routine-nav-link">Routine</Nav.Link>
                             <Nav.Link href="#contact" className="nav-link" id="contact-nav-link">Contact</Nav.Link>
                         </Nav>

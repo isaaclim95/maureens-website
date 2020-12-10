@@ -176,16 +176,70 @@
   max-width: 400px;
 }
 
-
-
 #activities-nav-link  {
   background-color: #90EE90;
   text-align: center;
 }
 
-/******************************************Framework*******************************************/
+/******************************Routine*****************/
+.routine-div  {
+  min-height: 80vh !important;
+  background-color: #e3fcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-#framework-nav-link {
+.routine-div  h2 {
+  font-family: MontserratBold;
+  font-size: 64px !important;
+}
+
+.routine-div p  {
+  font-family: Montserrat;
+  font-size: 20px !important;
+}
+
+.routine-row  {
+  align-items: center;
+}
+
+.routine-img  {
+  max-width: 500px;
+}
+
+/******************************************Framework*******************************************/
+.learning-framework-div  {
+  min-height: 80vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learning-framework-div  h2 {
+  font-family: MontserratBold;
+  font-size: 64px !important;
+}
+
+.learning-framework-div p  {
+  font-family: Montserrat;
+  font-size: 20px !important;
+}
+
+.learning-framework-row  {
+  align-items: center;
+}
+
+.learning-framework-img  {
+  max-width: 500px;
+}
+
+
+#about-nav-link  {
+  background-color: #FFFF00;
+}
+
+#learning-framework-nav-link {
   background-color: #FFC0CB;
   text-align: center;
 }
