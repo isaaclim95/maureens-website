@@ -16,14 +16,9 @@ export default class About extends Component {
           <Row className="about-row">
             <Col><img className="about-img" src={about_img}></img></Col>
             <Col>
-              <h2 style={{ textAlign: "center" }}>About Us</h2>
+              <h2 >About</h2>
               <p>
-                My name is Maureen and I have been running a family day care at my place for 15 years.
-                I have Certificate III in Childcare and Diploma in Children Services, and a current CPR, Asthma and
-                Anaphylactics certificate.
-                I live with my husband Donny. I know how important it is to find an educator you can trust and someone
-                who understands
-                the highs and lows of being a mum.
+                My name is Maureen and I have been running a Family Day care at my home for 15 years. I aim to provide children with a comfortable and safe environment, where they can learn and play to their heart’s content.
             </p>
             </Col>
           </Row>

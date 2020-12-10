@@ -118,17 +118,24 @@
   justify-content: center;
 }
 
+.about-div  h2 {
+  font-family: MontserratBold;
+  font-size: 64px !important;
+}
+
+.about-div p  {
+  font-family: Montserrat;
+  font-size: 20px !important;
+}
+
 .about-row  {
   align-items: center;
   margin-left: 30px !important;
   margin-right: 30px !important;
-  
 }
 
 .about-img  {
   max-width: 400px;
-  display: block;
-  margin-bottom:30px;
 }
 
 #about-nav-link  {
@@ -136,9 +143,40 @@
 }
 
 /******************************************Activities****************************************/
-.activities {
-  background-color: crimson;
+
+.activities-div  {
+  min-height: 80vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.activities-div  h2 {
+  font-family: MontserratBold;
+  font-size: 64px !important;
+}
+
+.activities-div li {
+  font-family: Montserrat;
+  font-size: 20px !important;
+  margin: 0 0 14px 0;
+}
+
+.activities-div ul  {
+  padding: 0 !important;
+}
+
+.activities-row  {
+  align-items: center;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.activities-img  {
+  max-width: 400px;
+}
+
+
 
 #activities-nav-link  {
   background-color: #90EE90;
@@ -185,4 +223,14 @@
   src: local('Lato'), url(./fonts/MPLUSRounded1c-Regular.ttf) format('opentype');
 }
 
+@font-face  {
+  font-family: 'MontserratBold';
+  src: local('Lato'), url(./fonts/Montserrat-Bold.ttf) format('opentype');
+}
+
+
+@font-face  {
+  font-family: 'Montserrat';
+  src: local('Lato'), url(./fonts/Montserrat-Regular.ttf) format('opentype');
+}
 

@@ -3,29 +3,42 @@ import '../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import activities_img from '../img/activities-img.jpg';
 
 export default class Activities extends Component {
 
   render() {
     return (
-      <Container style={{ marginTop: "5%" }} id="activities">
-        <Row>
-          <Col>
-            <h2 style={{ textAlign: "center" }}>Activities</h2>
-            <ul>
-              <li> Paint & Craft</li>
-              <li>Messy play activities</li>
-              <li>Sensory activities</li>
-              <li>Using their imagination</li>
-              <li>Exploring the world around them</li>
-              <li>Planting, watering and harvesting in the kid's vegetable patch</li>
-              <li>Using fine motor skills in games and activities</li>
-              <li>Jumping, climbing, running and building</li>
-              <li>Floor Time for Babies</li>
-            </ul></Col>
-        </Row>
+      <div className="activities-div">
+        <Container className="activities-container" id="activities">
+          <Row className="activities-row" style={{ marginBottom: "26px" }}>
+            <Col><h2 >Activities</h2></Col>
+          </Row>
+          <Row className="activities-row">
+            <Col>
+              <ul style={{ listStyleType: "none" }}>
+                <li>Paint & Craft</li>
+                <li>Messy play activities</li>
+                <li>Sensory activities</li>
+                <li>Gardening</li>
+                <li>Water play</li>
+              </ul>
 
-      </Container>
+            </Col>
+            <Col>
+              <ul style={{ listStyleType: "none" }}>
+                <li>Imagination play</li>
+                <li>Floor time for babies</li>
+                <li>Jumping and climbing</li>
+                <li>Building blocks</li>
+                <li>and many many more!</li>
+              </ul>
+            </Col>
+            <Col><img className="activities-img" src={activities_img}></img></Col>
+          </Row>
+        </ Container>
+      </div>
+
 
     );
   }
