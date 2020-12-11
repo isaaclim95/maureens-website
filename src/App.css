@@ -29,7 +29,7 @@
   /* Text colour navbar */
   color: #000000;
   background-image: url(img/nav-background.svg); 
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat; 
 }
 
@@ -40,6 +40,10 @@
   border-radius: 50%;
   min-height: 10px;
   max-width: 10px;
+}
+
+.carousel-item {
+  transition: opacity 1s ease-in-out !important;
 }
 
 
@@ -104,8 +108,7 @@
 
 .action-button  {
   border-radius: "35px";
-  width: 300px;
-  font-size: "3vw";
+  font-size: "4vw";
 }
 
 /******************************************About*******************************************/

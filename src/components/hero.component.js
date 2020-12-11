@@ -11,8 +11,8 @@ export default class Hero extends Component {
         return (
             <Container className="hero">
                 <Row className="hero-row">
-                    <Col className="hero-col"><h5>Check for vacancies</h5></Col>
-                    <Col className="hero-col"><h5>Contact me here</h5></Col>
+                    <Col className="hero-col"><h3>Check for vacancies</h3></Col>
+                    <Col className="hero-col"><h3>Contact me here</h3></Col>
                 </Row>
                 <Row className="hero-row">
                     <Col className="hero-col"><ActionButton title="Vacancies" backgroundColor="orange" color="black" /></Col>
