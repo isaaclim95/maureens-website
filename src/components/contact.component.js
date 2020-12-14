@@ -19,6 +19,7 @@ export default class Contact extends Component {
                         <Col>
                             <h3>Phone number: 0421 401 896</h3>
                         </Col>
+                        <Col><h3>Address: 8 Mikado Way, Robina, Gold Coast, 4226, QLD</h3></Col>
                     </Row>
                 </ Container>
             </div>

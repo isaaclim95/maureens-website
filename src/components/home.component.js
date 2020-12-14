@@ -17,13 +17,13 @@ export default class Home extends Component {
             <div>Welcome to Maureen's Family Day Care</div>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image2} alt="Kids on a boat"></img>
           <div class="carousel-caption trickcenter">
             <div>Welcome to Maureen's Family Day Care</div>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image3} alt="Kids on a boat"></img>
           <div class="carousel-caption trickcenter">
             <div>Welcome to Maureen's Family Day Care</div>
