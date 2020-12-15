@@ -22,17 +22,13 @@ export default class Activities extends Component {
                 <li>Sensory activities</li>
                 <li>Gardening</li>
                 <li>Water play</li>
-              </ul>
-
-            </Col>
-            <Col>
-              <ul style={{ listStyleType: "none" }}>
                 <li>Imagination play</li>
                 <li>Floor time for babies</li>
                 <li>Jumping and climbing</li>
                 <li>Building blocks</li>
                 <li>and many many more!</li>
               </ul>
+
             </Col>
             <Col className="activities-col"><img className="activities-img" src={activities_img}></img></Col>
           </Row>
