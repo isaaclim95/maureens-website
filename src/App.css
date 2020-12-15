@@ -70,21 +70,21 @@
 
 /* Specific font size and aligning to middle for devices */
 @media only screen and (max-width: 300px) {
-  .trickcenter {
+  .carousel-caption {
     font-size: 3px;
     top: 30%;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .trickcenter {
+  .carousel-caption {
     font-size: 30px;
     top: 30%;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .trickcenter {
+  .carousel-caption {
     font-size: 25px;
     top: 30%;
   }
