@@ -51,27 +51,7 @@
   opacity: 1;
 }
 
-/* Specific font size and aligning to middle for devices */
-@media only screen and (max-width: 300px) {
-  .carousel-caption {
-    font-size: 3px;
-    top: 30%;
-  }
-}
 
-@media only screen and (max-width: 700px) {
-  .carousel-caption {
-    font-size: 30px;
-    top: 30%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .carousel-caption {
-    font-size: 25px;
-    top: 30%;
-  }
-}
 
 /********************************************Hero***************************/
 
@@ -350,7 +330,7 @@
   .contact-div  {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
-    min-height: 100vh !important;
+    min-height: 50vh !important;
   }
 
 
@@ -374,6 +354,28 @@
   }
   .contact-div  h2 {
     font-family: MontserratBold;
-    font-size: 10px !important;
+    font-size: 40px !important;
+  }
+}
+
+/* Specific font size and aligning to middle for devices */
+@media only screen and (max-width: 300px) {
+  .carousel-caption {
+    font-size: 20px;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel-caption {
+    font-size: 25px;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel-caption {
+    font-size: 25px;
+    top: 30%;
   }
 }

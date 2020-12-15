@@ -15,9 +15,9 @@ export default class Home extends Component {
           <img className="d-block w-100" src={image1} alt="Kids on a boat"></img>
           <div class="carousel-caption" style={{
             position: "absolute",
-            top: "30%",
+            top: "20%",
             textAlign: "center",
-            fontSize: "40px",
+            fontSize: "25px",
             fontFamily: "mplusrounded1c"
           }}>
             <div>Welcome to Maureen's Family Day Care</div>
@@ -27,9 +27,9 @@ export default class Home extends Component {
           <img className="d-block w-100" src={image2} alt="Kids on a boat"></img>
           <div class="carousel-caption" style={{
             position: "absolute",
-            top: "30%",
+            top: "20%",
             textAlign: "center",
-            fontSize: "40px",
+            fontSize: "25px",
             fontFamily: "mplusrounded1c"
           }}>
             <div>Welcome to Maureen's Family Day Care</div>
@@ -39,9 +39,9 @@ export default class Home extends Component {
           <img className="d-block w-100" src={image3} alt="Kids on a boat"></img>
           <div class="carousel-caption" style={{
             position: "absolute",
-            top: "30%",
+            top: "20%",
             textAlign: "center",
-            fontSize: "40px",
+            fontSize: "25px",
             fontFamily: "mplusrounded1c"
           }}>
             <div>Welcome to Maureen's Family Day Care</div>
