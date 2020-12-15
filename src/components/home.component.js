@@ -13,19 +13,19 @@ export default class Home extends Component {
       <Carousel className="carousel" fade="true" touch="true" pause="false" nextIcon="" nextLabel="" prevIcon="" prevLabel="">
         <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image1} alt="Kids on a boat"></img>
-          <div class="carousel-caption trickcenter">
+          <div class="carousel-caption">
             <div>Welcome to Maureen's Family Day Care</div>
           </div>
         </Carousel.Item>
         <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image2} alt="Kids on a boat"></img>
-          <div class="carousel-caption trickcenter">
+          <div class="carousel-caption">
             <div>Welcome to Maureen's Family Day Care</div>
           </div>
         </Carousel.Item>
         <Carousel.Item className="carousel-item">
           <img className="d-block w-100" src={image3} alt="Kids on a boat"></img>
-          <div class="carousel-caption trickcenter">
+          <div class="carousel-caption">
             <div>Welcome to Maureen's Family Day Care</div>
           </div>
         </Carousel.Item>
