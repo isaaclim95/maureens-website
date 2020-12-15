@@ -127,6 +127,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .about-div  h2 {
@@ -139,10 +140,12 @@
   font-size: 20px !important;
 }
 
-.about-row  {
+
+.about-col  {
+  display: flex;
   align-items: center;
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  justify-content: center;
+  
 }
 
 .about-img  {
@@ -153,6 +156,8 @@
   background-color: #FFFF00;
 }
 
+
+
 /******************************************Activities****************************************/
 
 .activities-div  {
@@ -160,6 +165,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .activities-div  h2 {
@@ -191,6 +197,14 @@
   background-color: #90EE90;
   text-align: center;
 }
+
+.activities-col  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 
 /******************************Routine*****************/
 .routine-div  {
@@ -241,8 +255,14 @@
   align-items: center;
 }
 
+.learning-framework-col  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .learning-framework-img  {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 /***********************Nav links****************************/
@@ -323,3 +343,53 @@
   src: local('Lato'), url(./fonts/Montserrat-Regular.ttf) format('opentype');
 }
 
+@media only screen and (max-width: 900px) {
+
+  .about-div  {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+  }
+  .activities-div  {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    min-height: 100vh !important;
+  }
+  .routine-div  {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    min-height: 100vh !important;
+  }
+  .learning-framework-div  {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+  }
+  .contact-div  {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    min-height: 100vh !important;
+  }
+
+
+
+  .about-div  h2 {
+    font-family: MontserratBold;
+    font-size: 40px !important;
+  }
+
+  .activities-div h2 {
+    font-family: MontserratBold;
+    font-size: 40px !important;
+  }
+  .routine-div  h2 {
+    font-family: MontserratBold;
+    font-size: 40px !important;
+  }
+  .learning-framework-div  h2 {
+    font-family: MontserratBold;
+    font-size: 40px !important;
+  }
+  .contact-div  h2 {
+    font-family: MontserratBold;
+    font-size: 40px !important;
+  }
+}

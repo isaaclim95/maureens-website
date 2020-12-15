@@ -20,7 +20,7 @@ export default class LearningFramework extends Component {
                                 The aim of this framework is to extend and enrich children's learning from birth to five years, and through the transition to school.
             </p>
                         </Col>
-                        <Col><img className="learning-framework-img" src={learning_framework_img}></img></Col>
+                        <Col className="learning-framework-col"><img className="learning-framework-img" src={learning_framework_img}></img></Col>
                     </Row>
                 </ Container>
             </div>

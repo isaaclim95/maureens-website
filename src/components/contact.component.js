@@ -17,9 +17,9 @@ export default class Contact extends Component {
                     </Row>
                     <Row className="contact-row2">
                         <Col>
-                            <h3>Phone number: 0421 401 896</h3>
+                            <h4>Phone number: 0421 401 896</h4>
                         </Col>
-                        <Col><h3>Address: 8 Mikado Way, Robina, Gold Coast, 4226, QLD</h3></Col>
+                        <Col><h4>Address: 8 Mikado Way, Robina, Gold Coast, 4226, QLD</h4></Col>
                     </Row>
                 </ Container>
             </div>

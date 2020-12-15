@@ -14,13 +14,14 @@ export default class About extends Component {
       <div className="about-div" id="about">
         <Container className="about-container" >
           <Row className="about-row">
-            <Col><img className="about-img" src={about_img}></img></Col>
+
             <Col>
               <h2 >About</h2>
               <p>
                 My name is Maureen and I have been running a Family Day care at my home for 15 years. I aim to provide children with a comfortable and safe environment, where they can learn and play to their heart’s content.
             </p>
             </Col>
+            <Col className="about-col"><img className="about-img" src={about_img}></img></Col>
           </Row>
         </ Container>
       </div>

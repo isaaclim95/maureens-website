@@ -34,7 +34,7 @@ export default class Activities extends Component {
                 <li>and many many more!</li>
               </ul>
             </Col>
-            <Col><img className="activities-img" src={activities_img}></img></Col>
+            <Col className="activities-col"><img className="activities-img" src={activities_img}></img></Col>
           </Row>
         </ Container>
       </div>
