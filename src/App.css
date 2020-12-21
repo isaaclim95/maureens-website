@@ -1,21 +1,16 @@
 /******************************************Navbar*******************************************/
 
-
-
-
-
 .navbar-logo {
   font-family: mplusrounded1c;
   font-size: 25px !important;
   padding: 30px;
 }
 
-
-.navbar-toggler   {
+.navbar-toggler {
   margin-right: 20px !important;
 }
 
-#responsive-navbar-nav  {
+#responsive-navbar-nav {
   margin: 0px !important;
   padding: 0px !important;
 }
@@ -23,28 +18,25 @@
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline:none;
-    
+  outline: none;
 }
 
 .nav-link {
-
 }
 
 .navbar-header {
-  background-color: #F16E10;
+  background-color: #f16e10;
 }
 
 .top-navbar {
   min-height: 90px;
   /* Text colour navbar */
   color: #000000;
-  background-image: url(img/nav-background.svg); 
+  background-image: url(img/nav-background.svg);
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   padding: 0px !important;
 }
-
 
 /* Carousel indicators */
 .carousel li {
@@ -58,18 +50,26 @@
   transition: opacity 1s ease-in-out !important;
 }
 
-
 .carousel.fade {
   opacity: 1;
 }
 
-
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  font-size: 35px;
+  font-family: mplusrounded1c;
+}
 
 /********************************************Hero***************************/
 
 .hero {
   min-height: 30vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   /* position: relative; */
   justify-content: center;
@@ -82,21 +82,20 @@
   text-align: center;
 }
 
-.hero-col h5  {
+.hero-col h5 {
   text-align: center;
 }
 
-
 /*****************ActionButton*********/
 
-.action-button  {
+.action-button {
   border-radius: "35px";
   font-size: "4vw";
 }
 
 /******************************************About*******************************************/
 
-.about-div  {
+.about-div {
   min-height: 80vh !important;
   background-color: #e3fcfc;
   display: flex;
@@ -105,37 +104,33 @@
   align-items: center;
 }
 
-.about-div  h2 {
+.about-div h2 {
   font-family: MontserratBold;
   font-size: 50px !important;
 }
 
-.about-div p  {
+.about-div p {
   font-family: Montserrat;
   font-size: 20px !important;
 }
 
-
-.about-col  {
+.about-col {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.about-img  {
+.about-img {
   max-width: 400px;
 }
 
-#about-nav-link  {
-  background-color: #FFFF00;
+#about-nav-link {
+  background-color: #ffff00;
 }
-
-
 
 /******************************************Activities****************************************/
 
-.activities-div  {
+.activities-div {
   min-height: 80vh !important;
   display: flex;
   flex-direction: column;
@@ -143,7 +138,7 @@
   align-items: center;
 }
 
-.activities-div  h2 {
+.activities-div h2 {
   font-family: MontserratBold;
   font-size: 50px !important;
 }
@@ -154,35 +149,33 @@
   margin: 0 0 14px 0;
 }
 
-.activities-div ul  {
+.activities-div ul {
   padding: 0 !important;
 }
 
-.activities-row  {
+.activities-row {
   align-items: center;
   margin-left: 30px !important;
   margin-right: 30px !important;
 }
 
-.activities-img  {
+.activities-img {
   max-width: 400px;
 }
 
-#activities-nav-link  {
-  background-color: #90EE90;
+#activities-nav-link {
+  background-color: #90ee90;
   text-align: center;
 }
 
-.activities-col  {
+.activities-col {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-
 /******************************Routine*****************/
-.routine-div  {
+.routine-div {
   min-height: 80vh !important;
   background-color: #e3fcfc;
   display: flex;
@@ -190,63 +183,63 @@
   justify-content: center;
 }
 
-.routine-div  h2 {
+.routine-div h2 {
   font-family: MontserratBold;
   font-size: 50px !important;
 }
 
-.routine-div p  {
+.routine-div p {
   font-family: Montserrat;
   font-size: 20px !important;
 }
 
-.routine-row  {
+.routine-row {
   align-items: center;
 }
 
-.routine-img  {
+.routine-img {
   max-width: 500px;
 }
 
 /******************************************Framework*******************************************/
-.learning-framework-div  {
+.learning-framework-div {
   min-height: 80vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.learning-framework-div  h2 {
+.learning-framework-div h2 {
   font-family: MontserratBold;
   font-size: 50px !important;
 }
 
-.learning-framework-div p  {
+.learning-framework-div p {
   font-family: Montserrat;
   font-size: 20px !important;
 }
 
-.learning-framework-row  {
+.learning-framework-row {
   align-items: center;
 }
 
-.learning-framework-col  {
+.learning-framework-col {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.learning-framework-img  {
+.learning-framework-img {
   max-width: 400px;
 }
 
 /***********************Nav links****************************/
-#about-nav-link  {
-  background-color: #FFFF00;
+#about-nav-link {
+  background-color: #ffff00;
 }
 
 #learning-framework-nav-link {
-  background-color: #FFC0CB;
+  background-color: #ffc0cb;
   text-align: center;
 }
 
@@ -260,18 +253,17 @@
   text-align: center;
 }
 
-.mr-auto  {
+.mr-auto {
   margin: auto;
   font-size: 20px;
   text-align: center;
   font-family: mplusrounded1c;
   background-color: #5bd1de;
-
 }
 
 /*************************Contact**************************/
 
-.contact-div   {
+.contact-div {
   min-height: 30vh !important;
   background-color: #e3fcfc;
   display: flex;
@@ -283,71 +275,66 @@
   margin-bottom: 50px;
 }
 
-.contact-row1 h2   {
+.contact-row1 h2 {
   font-family: MontserratBold;
   font-size: 50px !important;
   text-align: center;
 }
 
-.contact-row2 h4  {
+.contact-row2 h4 {
   font-family: Montserrat;
   text-align: center;
   font-size: 20px;
 }
 
-
 /******************************************Fonts*******************************************/
 
 @font-face {
-  font-family: 'IndieFlower';
-  src: local('Lato'), url(./fonts/IndieFlower-Regular.ttf) format('opentype');
+  font-family: "IndieFlower";
+  src: local("Lato"), url(./fonts/IndieFlower-Regular.ttf) format("opentype");
 }
 
-@font-face  {
-  font-family: 'mplusrounded1c';
-  src: local('Lato'), url(./fonts/MPLUSRounded1c-Regular.ttf) format('opentype');
+@font-face {
+  font-family: "mplusrounded1c";
+  src: local("Lato"), url(./fonts/MPLUSRounded1c-Regular.ttf) format("opentype");
 }
 
-@font-face  {
-  font-family: 'MontserratBold';
-  src: local('Lato'), url(./fonts/Montserrat-Bold.ttf) format('opentype');
+@font-face {
+  font-family: "MontserratBold";
+  src: local("Lato"), url(./fonts/Montserrat-Bold.ttf) format("opentype");
 }
 
-
-@font-face  {
-  font-family: 'Montserrat';
-  src: local('Lato'), url(./fonts/Montserrat-Regular.ttf) format('opentype');
+@font-face {
+  font-family: "Montserrat";
+  src: local("Lato"), url(./fonts/Montserrat-Regular.ttf) format("opentype");
 }
 
 @media only screen and (max-width: 900px) {
-
-  .about-div  {
+  .about-div {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
   }
-  .activities-div  {
-    margin-bottom: 5px !important;
-    margin-top: 5px !important;
-    min-height: 100vh !important;
-  }
-  .routine-div  {
+  .activities-div {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
     min-height: 100vh !important;
   }
-  .learning-framework-div  {
+  .routine-div {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    min-height: 100vh !important;
+  }
+  .learning-framework-div {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
   }
-  .contact-div  {
+  .contact-div {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
     min-height: 50vh !important;
   }
 
-
-
-  .about-div  h2 {
+  .about-div h2 {
     font-family: MontserratBold;
     font-size: 40px !important;
   }
@@ -356,22 +343,22 @@
     font-family: MontserratBold;
     font-size: 40px !important;
   }
-  .routine-div  h2 {
+  .routine-div h2 {
     font-family: MontserratBold;
     font-size: 40px !important;
   }
-  .learning-framework-div  h2 {
+  .learning-framework-div h2 {
     font-family: MontserratBold;
     font-size: 40px !important;
   }
-  .contact-div  h2 {
+  .contact-div h2 {
     font-family: MontserratBold;
     font-size: 40px !important;
   }
 }
 
 @media only screen and (min-width: 980px) {
-  .nav-link  {
+  .nav-link {
     margin-right: 10px;
   }
 }
